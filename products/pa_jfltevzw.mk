@@ -31,13 +31,6 @@ include vendor/pa/config/pa_common.mk
 # inherit from the proprietary version
 -include vendor/samsung/jfltevzw/BoardConfigVendor.mk
 
-# Include ParanoidAndroid common configuration
-include vendor/pa/config/pa_common.mk
-# inherit from common jf
--include device/samsung/jf-common/BoardConfigCommon.mk
-# inherit from the proprietary version
--include vendor/samsung/jfltevzw/BoardConfigVendor.mk
-
 # Inherit from jfltevzw device
 $(call inherit-product, device/samsung/jfltevzw/full_jfltevzw.mk)
 # Inherit some common CM stuff.
